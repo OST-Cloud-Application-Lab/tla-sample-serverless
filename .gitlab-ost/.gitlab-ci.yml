@@ -9,7 +9,7 @@ stages:
 
 maven-build:
   stage: build
-  image: openjdk:21-alpine
+  image: eclipse-temurin:21-jdk-noble
   script:
     - echo "Building application..."
     - ./mvnw clean package
