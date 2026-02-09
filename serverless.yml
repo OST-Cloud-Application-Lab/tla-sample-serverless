@@ -1,10 +1,10 @@
-org: ostcldsol
+org: cldsolkapsfs26
 app: tla-sample-serverless
 service: tla-sample-serverless
 provider:
   name: aws
   region: us-east-1
-  runtime: java17
+  runtime: java21
   timeout: 10
   environment:
     TLA_TABLE_NAME: tla-table-dev
