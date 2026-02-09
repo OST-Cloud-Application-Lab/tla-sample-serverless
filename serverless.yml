@@ -1,4 +1,4 @@
-org: cldsolkapsfs26
+org: ostcldsol
 app: tla-sample-serverless
 service: tla-sample-serverless
 provider:
